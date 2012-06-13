@@ -246,7 +246,7 @@ namespace MuddyTummy.Collections
 		}
 		
 		/*
-		 * Implementation of ILinkedDictionary<TK, TV>.
+		 * Implementation of ILinkedDictionaryCtl<TK, LockableValue<TV>>.
 		 */
 		public void DidAddPair(KeyValuePair<TK, LockableValue<TV>> pair)
 		{
