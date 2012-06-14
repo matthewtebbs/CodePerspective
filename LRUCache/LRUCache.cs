@@ -220,7 +220,7 @@ namespace MuddyTummy.Collections
 		
 		private bool PurgePredicate(KeyValuePair<TK, LockableValue<TV>> pair, out bool doStop)
 		{
-			doStop = _currentSize < _maxSize;
+			doStop = _currentSize <= _maxSize;
 			return !(doStop || pair.Value.IsLocked);
 		}
 		
