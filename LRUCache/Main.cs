@@ -1,5 +1,5 @@
 /*
- * 	MuddyTummy Core
+ * 	LRU Cache Sample
  *
  * Copyright (c) 2010-2012 MuddyTummy Software, LLC
  * 
